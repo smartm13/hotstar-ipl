@@ -1,0 +1,23 @@
+{
+  "manifest_version": 2,
+
+  "name": "HotstarIPLHack",
+  "description": "This extension resets ipl page after 4mins",
+  "version": "1.0",
+
+  "browser_action": {
+"default_title": "IPL HACK",
+    "default_icon": "icon.png"
+     },
+  "permissions": [
+    "storage","contentSettings"
+	],
+  
+  "content_scripts": [
+    {
+      "matches": ["*://www.hotstar.com/*"],
+      "js": ["hot.js"]
+    }
+  ]
+  
+}
