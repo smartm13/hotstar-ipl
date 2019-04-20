@@ -9,8 +9,8 @@ In cycle of X mins it does:
 - refreshes the page
 - trying to go fullscreen
 
-To use other parts of Hotstar, Kindly disable extension.
-
+To use other parts of Hotstar, Kindly disable the extension.  
+PS: When developed, X was 3mins. It may vary as economy varies :D
 
 ### How to load this extension:
 1) Download this repo:[all 3 files in one folder-say EXTENSIONFOLDER]
